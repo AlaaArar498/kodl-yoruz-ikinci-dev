@@ -1,0 +1,122 @@
+* body {
+
+    background-color: #dcf0f0;
+    font-family: 'Castoro', serif;
+}
+
+/* navbar start */
+input { 
+   max-width: 120px;
+   max-height: 30px;
+}
+
+.color {
+    color: black;
+}
+/* navbar end */
+
+/* Carousel-image start */
+.bg-img {
+    max-height: 100vh;
+}
+
+.Carousel-image {
+    font-size: large;
+    font-style: italic;
+}
+/* Carousel-image end */
+
+/* card's start */
+.card-img-top {
+    height: 250px;
+}
+
+.card-page1 {    
+    height: 250px;
+    border: none;
+} 
+.card:hover {
+    box-shadow: 4px 6px 3px 1px #b1b1b1;
+    bottom: 9px;
+}
+
+.btn-group a:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+/* card's end */
+
+/* Infobar start */  
+svg{
+    margin: 0px 0px 10px 0px;
+}
+/* Infobar End */
+
+/* Footer Start */
+.footer-up{
+    color: #ffffff;
+    padding: 30px ;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #22ade0;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.button-css{
+    width: 400px;
+    height: 60px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px rgb(241, 241, 241) solid;
+    border-radius: 35px;
+}
+.button-css:hover{
+    transition: 0.2s;
+    height: 61px;
+    border: 2px #ffffff solid;
+    box-shadow: 2px 3px 5px 2px #ffffff ;
+    font-size: 20px;
+}
+.button-css a{
+    padding: 9px 100px;
+    color: rgb(241, 241, 241);
+}
+a:hover{text-decoration: none;color: #ffffff;
+}
+.bg-cf {
+    background-color: #06a5dc;
+}
+.footer-nav{
+    background-color: #ffffff;
+    width: 100%;
+    height: 120px;
+}
+.footer-nav ul{
+    list-style-type: none;
+    margin: 0px 5% 0px 0px;
+}
+.footer-nav ul li a{
+    color: #000;
+    padding: 3% 10% 2% 10%;
+    float: right;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.footer-nav ul li a:hover{
+  color: #333;
+}
+/* Footer End */
+
+/* Media Css Start */
+@media screen and (max-width: 600px)
+ { .footer-nav ul li a:hover {
+    font-size: 15px; color: #333;
+    }
+  .footer-nav ul li a {
+    padding: 3% 1% 2% 10%;
+    margin-top: 10%;
+    margin-left: 1%;
+  }}
+  Media Css End
